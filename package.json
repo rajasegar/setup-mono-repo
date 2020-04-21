@@ -1,15 +1,24 @@
 {
   "name": "setup-mono-repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "some useful scripts for setting up mono repo like adding readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "monorepo",
+    "readme",
+    "packages",
+    "workspaces",
+    "yarn"
+  ],
+  "bin": {
+    "setup-mono-repo": "./bin/cli.js",
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
   "dependencies": {
+    "common-tags": "^1.8.0",
     "fs-extra": "^9.0.0",
     "walk-sync": "^2.1.0",
     "yargs": "^15.3.1"
