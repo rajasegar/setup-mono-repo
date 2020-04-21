@@ -2,7 +2,6 @@
   "name": "setup-mono-repo",
   "version": "1.0.0",
   "description": "some useful scripts for setting up mono repo like adding readme",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +12,19 @@
     "workspaces",
     "yarn"
   ],
+  "homepage": "https://github.com/rajasegar/setup-mono-repo#readme",
+  "bugs": {
+    "url": "https://github.com/rajasegar/setup-mono-repo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasegar/setup-mono-repo.git"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "main": "src/index.js",
   "bin": {
     "setup-mono-repo": "./bin/cli.js"
   },

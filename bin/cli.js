@@ -5,6 +5,6 @@ const argv = require('yargs').argv;
 
 const [root] = argv._;
 
-const { createReadme } = require('..');
+const { createReadme } = require('../src');
 createReadme(root);
 
