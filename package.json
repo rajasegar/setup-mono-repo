@@ -14,7 +14,8 @@
     "yarn"
   ],
   "bin": {
-    "setup-mono-repo": "./bin/cli.js",
+    "setup-mono-repo": "./bin/cli.js"
+  },
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
   "dependencies": {
